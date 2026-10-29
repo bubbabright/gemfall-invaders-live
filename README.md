@@ -2,9 +2,9 @@
 
 A Space Invaders game for one person. Phone or keyboard.
 
-**Play it: [https://invaders.moopit.fun](https://invaders.moopit.fun)**
+**Play it: [https://gemfall-invaders.netlify.app](https://gemfall-invaders.netlify.app)**
 
-That name is the front door. Until the DNS record is in place, the same build is also on this repo's Netlify address, linked from the About section on GitHub once the first build is up.
+The front door I want is [https://invaders.moopit.fun](https://invaders.moopit.fun). That name works once its DNS record points at this site. Until then, use the Netlify address above. Same game.
 
 I made this for family and friends. One pilot. The ships, the bunkers, and the music are made in the browser while you play. Nothing to install. No account. Your high score stays on the device you played on.
 
