@@ -1,0 +1,126 @@
+import { GameTheme, ThemeId } from '../types/game';
+
+export const GAME_THEMES: Record<ThemeId, GameTheme> = {
+  synthwave: {
+    id: 'synthwave',
+    name: 'Synthwave Neon',
+    tagline: '80s Outrun cyber grid with neon cyan & magenta lasers',
+    p1Color: '#00f0ff', // Cyber Cyan
+    p2Color: '#ff007f', // Hot Magenta
+    gridColor: '#d946ef',
+    gridHorizon: '#06b6d4',
+    bgSpace: '#050212',
+    nebulaColors: ['#7928ca', '#ff0080', '#0070f3'],
+    invaderTiers: ['#00f0ff', '#ff00a0', '#ffe600', '#ff0055'],
+    bunkerColor: '#06b6d4',
+    laserP1: '#00ffff',
+    laserP2: '#ff007f',
+    laserAlien: '#ff2255',
+    particleColors: ['#00f0ff', '#ff00a0', '#ffe600', '#ffffff'],
+    ambientColor: '#2e1065',
+    keyLightColor: '#f43f5e',
+    soundPreset: 'synthwave',
+  },
+  cosmic_romance: {
+    id: 'cosmic_romance',
+    name: 'Cosmic Romance',
+    tagline: 'Starlight palette in celestial violet, rose gold & astral teal',
+    p1Color: '#38bdf8', // Astral Sky Blue
+    p2Color: '#fb7185', // Rose Quartz / Blush
+    gridColor: '#c084fc',
+    gridHorizon: '#f472b6',
+    bgSpace: '#090314',
+    nebulaColors: ['#c026d3', '#e11d48', '#4f46e5'],
+    invaderTiers: ['#f472b6', '#c084fc', '#fbbf24', '#f43f5e'],
+    bunkerColor: '#a855f7',
+    laserP1: '#38bdf8',
+    laserP2: '#fb7185',
+    laserAlien: '#f43f5e',
+    particleColors: ['#fb7185', '#c084fc', '#fef08a', '#38bdf8'],
+    ambientColor: '#3b0764',
+    keyLightColor: '#f472b6',
+    soundPreset: 'cosmic',
+  },
+  phosphor_arcade: {
+    id: 'phosphor_arcade',
+    name: '1978 Phosphor CRT',
+    tagline: 'Classic coin-op arcade with vector green phosphor glow',
+    p1Color: '#22c55e', // Emerald Vector
+    p2Color: '#eab308', // Amber Vector
+    gridColor: '#15803d',
+    gridHorizon: '#16a34a',
+    bgSpace: '#020602',
+    nebulaColors: ['#064e3b', '#022c22', '#047857'],
+    invaderTiers: ['#4ade80', '#22c55e', '#a3e635', '#eab308'],
+    bunkerColor: '#16a34a',
+    laserP1: '#4ade80',
+    laserP2: '#fde047',
+    laserAlien: '#ef4444',
+    particleColors: ['#4ade80', '#22c55e', '#86efac', '#ffffff'],
+    ambientColor: '#064e3b',
+    keyLightColor: '#22c55e',
+    soundPreset: 'chiptune',
+  },
+  bio_swarm: {
+    id: 'bio_swarm',
+    name: 'Alien Bio-Swarm',
+    tagline: 'Bioluminescent toxic hive with acid green & xenomorph purple',
+    p1Color: '#06b6d4', // Plasma Cyan
+    p2Color: '#a855f7', // Mystic Violet
+    gridColor: '#84cc16',
+    gridHorizon: '#10b981',
+    bgSpace: '#020b08',
+    nebulaColors: ['#3f6212', '#065f46', '#581c87'],
+    invaderTiers: ['#a3e635', '#22c55e', '#84cc16', '#e11d48'],
+    bunkerColor: '#10b981',
+    laserP1: '#06b6d4',
+    laserP2: '#c084fc',
+    laserAlien: '#84cc16',
+    particleColors: ['#a3e635', '#84cc16', '#22c55e', '#a855f7'],
+    ambientColor: '#14532d',
+    keyLightColor: '#84cc16',
+    soundPreset: 'acid',
+  },
+  solar_flare: {
+    id: 'solar_flare',
+    name: 'Solar Flare & Gold',
+    tagline: 'Blazing coronal plasma with molten gold & obsidian deep',
+    p1Color: '#38bdf8', // Ice Blue Contrast
+    p2Color: '#f97316', // Solar Orange
+    gridColor: '#ea580c',
+    gridHorizon: '#eab308',
+    bgSpace: '#0c0502',
+    nebulaColors: ['#9a3412', '#b45309', '#7c2d12'],
+    invaderTiers: ['#fde047', '#f97316', '#ef4444', '#dc2626'],
+    bunkerColor: '#f59e0b',
+    laserP1: '#38bdf8',
+    laserP2: '#fb923c',
+    laserAlien: '#ef4444',
+    particleColors: ['#fbbf24', '#f97316', '#ef4444', '#ffffff'],
+    ambientColor: '#451a03',
+    keyLightColor: '#f97316',
+    soundPreset: 'darktechno',
+  },
+  cyber_matrix: {
+    id: 'cyber_matrix',
+    name: 'Cyber Matrix',
+    tagline: 'Deep dark terminal grid with hyper-speed laser matrix',
+    p1Color: '#10b981', // Terminal Green
+    p2Color: '#06b6d4', // Data Cyan
+    gridColor: '#059669',
+    gridHorizon: '#047857',
+    bgSpace: '#010804',
+    nebulaColors: ['#022c22', '#064e3b', '#065f46'],
+    invaderTiers: ['#34d399', '#10b981', '#059669', '#f43f5e'],
+    bunkerColor: '#10b981',
+    laserP1: '#34d399',
+    laserP2: '#22d3ee',
+    laserAlien: '#f43f5e',
+    particleColors: ['#34d399', '#10b981', '#6ee7b7', '#ffffff'],
+    ambientColor: '#022c22',
+    keyLightColor: '#10b981',
+    soundPreset: 'darktechno',
+  },
+};
+
+export const DEFAULT_THEME_ID: ThemeId = 'synthwave';

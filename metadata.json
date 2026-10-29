@@ -1,0 +1,6 @@
+{
+  "name": "Gemfall Invaders",
+  "description": "Gemfall Invaders: a high-octane 2.5D space invaders arcade game with techno-space audio, custom themes, single-player solo action for mobile and desktop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
